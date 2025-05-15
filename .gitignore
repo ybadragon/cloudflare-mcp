@@ -399,3 +399,8 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Project specific ignores
+hello-world-mcp/build/
+cloudflare-mcp/build/
+ImplementationPlans/

@@ -1,0 +1,20 @@
+{
+  "name": "cloudflare-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for Cloudflare API integration",
+  "main": "build/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
+    "start": "node build/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.1.0",
+    "cloudflare": "^2.9.1",
+    "@types/node": "^18.0.0",
+    "typescript": "^5.0.0"
+  }
+}
